@@ -4,76 +4,58 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página 2</title>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400&display=swap" rel="stylesheet">
     <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            color: rgb(0, 0, 0);
+        }
         .background {
             position: relative;
             text-align: center;
         }
         .background img {
-            width: 100%; /* Ajusta a largura da imagem */
-            height: auto; /* Mantém a proporção */
+            width: 100%;
+            height: auto;
             position: absolute;
             top: 0;
             left: 0;
-            z-index: 1; /* Coloca a imagem atrás do texto */
+            z-index: 1;
+        }
+        .title, .titles {
+            position: relative;
+            z-index: 2;
+            margin: 50px 70px 20px;
         }
         .title {
-            position: relative;
-            z-index: 2; /* Coloca o texto acima da imagem */
-            color: rgb(0, 0, 0); /* Altera a cor do texto, se necessário */
-            font-family: 'Arial', sans-serif; /* Define a fonte */
-            font-size: 18px; /* Tamanho da frase */
-            text-align: center; /* Centraliza o texto */
-            margin-top: 50px; /* Espaço acima do texto */
-            margin-bottom: 20px; /* Espaço abaixo do texto */
-            margin-left: 70px; /* Margem à esquerda */
-            margin-right: 70px; /* Margem à direita */
-
+            color: rgb(0, 0, 0);
+            font-size: 18px;
         }
-            .titles {
-            position: relative;
-            z-index: 2; /* Coloca o texto acima da imagem */
-            color: rgb(255, 255, 255); /* Altera a cor do texto, se necessário */
-            font-family: 'Source Code Pro', sans-serif !important; /* Altera a fonte para Source Code Pro */
-        
+        .titles {
+            color: rgb(255, 255, 255);
+            font-family: 'Source Code Pro', sans-serif;
+        }
+        a {
+            color: rgb(12, 12, 12);
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
 <body>
     <div class="background">
-        <img src="https://strapi.app.unifecaf.edu.br/uploads/large_ads_min_1_40615edcc0.webp" alt="Imagem de Fundo">
-        <br>
-        <br>
-        <br>
-        <br> <h1 class="titles">HOME</h1><br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <p class="title">Descobrindo o Mundo da Análise e Desenvolvimento de Sistemas
-
-            A Faculdade de Análise e Desenvolvimento de Sistemas (ADS) é uma porta de entrada para um universo repleto de oportunidades na era digital. Em um mundo onde a tecnologia está em constante evolução, o curso de ADS se destaca ao preparar os alunos para se tornarem profissionais capazes de criar, desenvolver e gerenciar sistemas que transformam o nosso dia a dia.
-            
-            Desde o primeiro semestre, os estudantes mergulham em disciplinas que abordam desde a lógica de programação até a análise de requisitos, passando por banco de dados, desenvolvimento web e aplicativos móveis. Essa formação ampla permite que os alunos compreendam não apenas a teoria por trás da tecnologia, mas também suas aplicações práticas.
-            
-            A faculdade de ADS também valoriza o desenvolvimento de habilidades críticas, como a capacidade de trabalhar em equipe, a comunicação eficaz e a resolução de problemas. Projetos colaborativos e estágios proporcionam uma imersão no mercado de trabalho, onde os alunos podem aplicar seus conhecimentos e construir um portfólio que os destaque entre os futuros empregadores.
-            
-            Além disso, o curso promove a atualização constante, com acesso a workshops, palestras e eventos de tecnologia. Isso garante que os alunos estejam sempre por dentro das últimas tendências e inovações do setor, tornando-os profissionais altamente competitivos.
-            
-            Ao final da jornada acadêmica, os graduados em ADS estarão prontos para enfrentar os desafios do mercado de trabalho, seja como desenvolvedores, analistas de sistemas, gerentes de projetos ou empreendedores. A Faculdade de Análise e Desenvolvimento de Sistemas não apenas forma técnicos, mas também visionários, prontos para moldar o futuro digital.
-        <br>
-        <br>
-        <br>
-      
+        <img src="https://strapi.app.unifecaf.edu.br/uploads/large_ads_min_1_40615edcc0.webp" alt="Imagem ilustrativa da Faculdade de Análise e Desenvolvimento de Sistemas">
+        <h1 class="titles">HOME</h1>
+        <main class="title">
+            <p>Descobrindo o Mundo da Análise e Desenvolvimento de Sistemas</p>
+            <p>A Faculdade de Análise e Desenvolvimento de Sistemas (ADS) é uma porta de entrada para um universo repleto de oportunidades na era digital. Em um mundo onde a tecnologia está em constante evolução, o curso de ADS se destaca ao preparar os alunos para se tornarem profissionais capazes de criar, desenvolver e gerenciar sistemas que transformam o nosso dia a dia.</p>
+            <p>Desde o primeiro semestre, os estudantes mergulham em disciplinas que abordam desde a lógica de programação até a análise de requisitos, passando por banco de dados, desenvolvimento web e aplicativos móveis. Essa formação ampla permite que os alunos compreendam não apenas a teoria por trás da tecnologia, mas também suas aplicações práticas.</p>
+            <p>A faculdade de ADS também valoriza o desenvolvimento de habilidades críticas, como a capacidade de trabalhar em equipe, a comunicação eficaz e a resolução de problemas. Projetos colaborativos e estágios proporcionam uma imersão no mercado de trabalho, onde os alunos podem aplicar seus conhecimentos e construir um portfólio que os destaque entre os futuros empregadores.</p>
+            <p>Além disso, o curso promove a atualização constante, com acesso a workshops, palestras e eventos de tecnologia. Isso garante que os alunos estejam sempre por dentro das últimas tendências e inovações do setor, tornando-os profissionais altamente competitivos.</p>
+            <p>Ao final da jornada acadêmica, os graduados em ADS estarão prontos para enfrentar os desafios do mercado de trabalho, seja como desenvolvedores, analistas de sistemas, gerentes de projetos ou empreendedores. A Faculdade de Análise e Desenvolvimento de Sistemas não apenas forma técnicos, mas também visionários, prontos para moldar o futuro digital.</p>
+        </main>
         <p class="title">
-            <a href="paginaf.html" style="color: rgb(12, 12, 12);">Avançar pagina 2</a><br>
-            <a href="pagunay.html" style="color: rgb(12, 12, 12);">Avançar pagina 3</a>
-        </p>
-    </div>
-</body>
-</html>
+            <a href="paginaf
